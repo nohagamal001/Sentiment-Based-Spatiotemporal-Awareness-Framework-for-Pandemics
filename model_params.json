@@ -1,0 +1,13 @@
+{
+    "nn_cell": [3],
+    "epochs": 5,
+    "batch_size": 64,
+    "loss": ["binary_crossentropy", "categorical_crossentropy", "sparse_categorical_crossentropy"],
+    "optimizer": "adam",
+    "metrics": ["accuracy"],
+    "hidden_dims": 128,
+    "nb_filter": 64,
+    "dropout": 0.1,
+    "recurrent_dropout": 0.1
+
+}
